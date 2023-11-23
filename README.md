@@ -22,4 +22,4 @@ The EC2 Instance Monitoring Script is a shell-based solution designed to keep tr
 
 1. **Clone Repository:**
    ```bash
-
+ git clone https://github.com/GaneshSonarSD/MyShellProject.git
