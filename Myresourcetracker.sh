@@ -18,16 +18,16 @@
 
 
 # List s3 buckets
-echo "Print list of s3 buckets"
+echo "Print list of ec2 Instance"
 
 #aws s3 ls
-## clearing the output
+## Clearing the output
 
 aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId'
 
 # list ec2 instances
-echo "Print list of ec2 buckets"
-aws ec2 describe-instances
+#echo "Print list of ec2 buckets"
+#aws ec2 describe-instances
 
 # list lambda
 echo "Print list of lambda function"
